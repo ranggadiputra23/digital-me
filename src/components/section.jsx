@@ -24,12 +24,30 @@ const Section = () => {
                     }}
                     className="pb-12"
                 >
-                    <SwiperSlide><img src={logo1} alt="Slide 1" className="rounded-lg" /></SwiperSlide>
-                    <SwiperSlide><img src={logo2} alt="Slide 1" className="rounded-lg" /></SwiperSlide>
-                    <SwiperSlide><img src={logo3} alt="Slide 1" className="rounded-lg" /></SwiperSlide>
-                    <SwiperSlide><img src={logo1} alt="Slide 1" className="rounded-lg" /></SwiperSlide>
-                    <SwiperSlide><img src={logo2} alt="Slide 1" className="rounded-lg" /></SwiperSlide>
-                    <SwiperSlide><img src={logo3} alt="Slide 1" className="rounded-lg" /></SwiperSlide>
+                    <SwiperSlide>
+                        <img src={logo1} alt="Slide 1" className="rounded-lg" />
+                        <h5 className="text-white text-center font-geist font-semibold">Aplikasi 1</h5>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src={logo2} alt="Slide 1" className="rounded-lg" />
+                        <h5 className="text-white text-center font-geist font-semibold">Aplikasi 2</h5>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src={logo3} alt="Slide 1" className="rounded-lg" />
+                        <h5 className="text-white text-center font-geist font-semibold">Aplikasi 3</h5>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src={logo1} alt="Slide 1" className="rounded-lg" />
+                        <h5 className="text-white text-center font-geist font-semibold">Aplikasi 4</h5>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src={logo2} alt="Slide 1" className="rounded-lg" />
+                        <h5 className="text-white text-center font-geist font-semibold">Aplikasi 5</h5>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src={logo3} alt="Slide 1" className="rounded-lg" />
+                        <h5 className="text-white text-center font-geist font-semibold">Aplikasi 6</h5>
+                    </SwiperSlide>
                 </Swiper>
                 <style>
                     {`
