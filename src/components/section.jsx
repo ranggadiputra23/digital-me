@@ -17,6 +17,17 @@ const Section = () => {
                     freeMode={true}
                     spaceBetween={10}
                     slidesPerView={3}
+                    breakpoints={{
+                        0: { // untuk semua device kecil (mulai dari 0px)
+                          slidesPerView: 1.5,
+                        },
+                        768: { // untuk tablet ke atas
+                          slidesPerView: 2.5,
+                        },
+                        1024: { // untuk desktop
+                          slidesPerView: 3,
+                        },
+                      }}
                     pagination={{ clickable: true }}
                     autoplay={{
                         delay: 2500, // 2.5 detik
@@ -73,7 +84,7 @@ const Section = () => {
             </div>
             <div className="text-center my-20">
                 <h1 className="text-[#3674B5] font-semibold text-xl font-geist tracking-[0.5rem]">SKILL</h1>
-                <div className="flex justify-center items-center gap-5">
+                <div className="flex flex-col md:flex-row justify-center items-center gap-5 mt-8 transition-all duration-500">
                     <h3 className="text-white font-geist text-xl hover:text-[#D3E671]">HTML + CSS</h3>
                     <h3 className="text-white font-geist text-xl hover:text-[#D3E671]">PHP</h3>
                     <h3 className="text-white font-geist text-xl hover:text-[#D3E671]">JAVASCRIPT</h3>

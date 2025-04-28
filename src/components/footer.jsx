@@ -30,11 +30,11 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="font-geist text-white my-20">
+            <div className="font-geist text-white my-20 text-sm">
                 <h2>© {year} Rangga Adi Putra, <br />
                     All Rights Reserved.</h2>
             </div>
-            <img src={logo} alt="" className="ml-auto mr-auto" />
+            <img src={logo} alt="" className="px-10 ml-auto mr-auto" />
         </div>
     )
 }
