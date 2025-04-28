@@ -12,6 +12,7 @@ import mhs from "../../public/image/cms/mhs.png";
 import saka from "../../public/image/cms/saka.png";
 import medan from "../../public/image/cms/sma4medan.png";
 import voucher from "../../public/image/cms/tentangvoucher.png";
+import aspro from "../../public/image/cms/aspro.png";
 
 import 'swiper/css';
 import "swiper/css/free-mode";
@@ -63,6 +64,10 @@ const Section = () => {
         {
             image: medan,
             name: "CMS SMA 4 Medan",
+        },
+        {
+            image: aspro,
+            name: "CMS ASPRO",
         },
     ];
 
