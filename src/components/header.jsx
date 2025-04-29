@@ -1,6 +1,7 @@
 import logo from "../../public/image/logo.png";
 import { useEffect, useState } from "react";
 import { AlignLeft, X } from 'lucide-react';
+import { Link } from "react-router-dom";
 
 const Header = () => {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -24,7 +25,7 @@ const Header = () => {
             <div className="flex justify-between items-center relative">
                 <div>
                     {/* <h1>Rangga</h1> */}
-                    <img src={logo} alt="logo" className="absolute left-[0rem] top-[-3.5rem] w-[40%] md:top-[-2.5rem] md:w-[20%] lg:top-[-7rem] " />
+                    <img src={logo} alt="logo" className="absolute left-[0rem] top-[-3.5rem] w-[40%] md:top-[-2.5rem] md:w-[20%] lg:top-[-8.5rem] " />
                 </div>
 
                 <div>
@@ -58,8 +59,12 @@ const Header = () => {
 
                     {/* Menu */}
                     <div className={`absolute w-[66%] top-16 -right-7 bg-[#2f2d2d] rounded-lg shadow-md transition-all duration-300 p-4 flex flex-col items-center gap-4 md:static md:bg-transparent md:flex md:flex-row md:gap-8 md:p-0 ${isOpen ? "block" : "hidden"} md:block`}>
-                        <h3 className="cursor-pointer font-geist text-lg text-white hover:text-[#D3E671]">PORTOFOLIO</h3>
-                        <h3 className="cursor-pointer font-geist text-lg text-white hover:text-[#D3E671]">CONTACT</h3>
+                        <Link to="#">
+                            <h3 className="cursor-pointer font-geist text-lg text-white hover:text-[#D3E671]">PORTOFOLIO</h3>
+                        </Link>
+                        <Link to="#">
+                            <h3 className="cursor-pointer font-geist text-lg text-white hover:text-[#D3E671]">CONTACT</h3>
+                        </Link>
                     </div>
                 </div>
             </div>

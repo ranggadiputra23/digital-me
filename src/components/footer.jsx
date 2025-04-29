@@ -11,8 +11,8 @@ const Footer = () => {
     return (
         <div className="text-center">
             <div className="my-20">
-                <h1 className="text-[#3674B5] font-semibold text-xl font-geist tracking-[0.5rem]">SOCIALS</h1>
-                <div className="flex justify-center items-center gap-7 text-white font-geist text-xl">
+                <h1 className="text-[#00aeef] font-semibold text-xl font-geist tracking-[0.5rem]">SOCIALS</h1>
+                <div className="flex justify-center items-center gap-7 text-white font-geist text-md md:text-xl">
                     <div>
                         <Link to="https://www.instagram.com/rangga.app/" target="_blank">
                             <h2 className="cursor-pointer hover:text-[#D3E671] hover:underline">INSTAGRAM</h2>

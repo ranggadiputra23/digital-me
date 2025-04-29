@@ -73,8 +73,8 @@ const Section = () => {
 
     return (
         <div>
-            <div className="ml-[55px] mt-16 -mb-7">
-                <h1 className="text-[#3674B5] font-semibold text-xl font-geist tracking-[0.5rem]">PORTOFOLIO</h1>
+            <div className="md:ml-[55px] mt-16 -mb-10 md:-mb-7 mx-5">
+                <h1 className="text-[#00aeef] font-semibold text-xl font-geist tracking-[0.5rem]">PORTOFOLIO</h1>
             </div>
             <div className="my-20 mx-5 lg:mx-20 relative">
                 <Swiper
@@ -131,15 +131,15 @@ const Section = () => {
                     `}
                 </style>
             </div>
-            <div className="text-center my-20">
-                <h1 className="text-[#3674B5] font-semibold text-xl font-geist tracking-[0.5rem]">SKILL</h1>
-                <div className="flex flex-col md:flex-row justify-center items-center gap-5 mt-8 transition-all duration-500">
-                    <h3 className="text-white font-geist text-xl hover:text-[#D3E671]">HTML + CSS</h3>
-                    <h3 className="text-white font-geist text-xl hover:text-[#D3E671]">PHP</h3>
-                    <h3 className="text-white font-geist text-xl hover:text-[#D3E671]">JAVASCRIPT</h3>
-                    <h3 className="text-white font-geist text-xl hover:text-[#D3E671]">REACT</h3>
-                    <h3 className="text-white font-geist text-xl hover:text-[#D3E671]">BOOTSTRAP</h3>
-                    <h3 className="text-white font-geist text-xl hover:text-[#D3E671]">TAILWIND CSS</h3>
+            <div className="text-center my-20 mx-5">
+                <h1 className="text-[#00aeef] font-semibold text-xl font-geist tracking-[0.5rem]">SKILL</h1>
+                <div className="grid grid-cols-3 gap-x-2 gap-y-4 mt-8 md:flex md:flex-row md:justify-center md:items-center md:gap-5 transition-all duration-500">
+                    <h3 className="text-white font-geist text-md md:text-xl hover:text-[#D3E671]">HTML + CSS</h3>
+                    <h3 className="text-white font-geist text-md md:text-xl hover:text-[#D3E671]">PHP</h3>
+                    <h3 className="text-white font-geist text-md md:text-xl hover:text-[#D3E671]">JAVASCRIPT</h3>
+                    <h3 className="text-white font-geist text-md md:text-xl hover:text-[#D3E671]">REACT</h3>
+                    <h3 className="text-white font-geist text-md md:text-xl hover:text-[#D3E671]">BOOTSTRAP</h3>
+                    <h3 className="text-white font-geist text-md md:text-xl hover:text-[#D3E671]">TAILWIND CSS</h3>
                 </div>
             </div>
         </div>
